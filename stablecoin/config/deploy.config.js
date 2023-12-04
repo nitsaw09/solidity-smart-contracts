@@ -1,0 +1,12 @@
+module.exports = {
+  EURST: {
+    MINTER: "<MINTER-WALLET_ADDRESS>",
+    WIPER: "<WIPER_WALLET_ADDRESS>",
+    REGISTRY_MANAGER: "<REGISTRY_MANAGER_WALLET_ADDRESS>",
+    INITIAL_SUPPLY: "1000000000000000000", // 1 token initial unit in wei
+  },
+  USER_REGISTRY: {
+    MIN_BURN_BOUND: "1000000000000000000", // 1 token initial unit in wei
+    MAX_BURN_BOUND: "100000000000000000000000", // 100000 token initial unit in wei
+  },
+};
